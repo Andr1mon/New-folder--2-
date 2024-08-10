@@ -1,0 +1,42 @@
+-nologo
+-out:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\Pilote.exe
+-arch:x86
+-timestamp
+-debug:2
+-project:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\Pilote.prj
+-res:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\linkersummary.txt
+-dlldeps:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\dlldependencies.txt
+-licensing:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\linkerlicensing.txt
+-browsedeps:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\cvibuild.Pilote\Debug\Pilote.obj
+-more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\advanlys.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\bufferoverflowu.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\bin\msvc\cvi_db.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\bin\msvc\ivi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\bin\msvc\NIDAQmx.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\bin\msvc\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\omp.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\bin\msvc\pid.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

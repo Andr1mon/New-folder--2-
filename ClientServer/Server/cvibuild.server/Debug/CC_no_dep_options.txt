@@ -1,0 +1,1 @@
+-force-include-file "server.c";"h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.c" -force-include-file "server.h";"h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.h" 

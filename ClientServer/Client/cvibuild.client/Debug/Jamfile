@@ -1,0 +1,43 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\bin"
+	;
+include Jamfile_instr ;
+LOCATE on "client.c" = "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client" ;
+LOCATE on "client.h" = "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client" ;
+Object "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj" : "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\client.c" ;
+FILENUM on "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj" = 1 ;
+DEFPROTS on "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj" = "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj.cvidefprots" ;
+OUTFILE on "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj" = "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj.out" ;
+PrjObjects += "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client.obj" ;
+Object "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\resources.res" : "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\resources.in.rc" ;
+Depends "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\resources.res" : "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\manifest.xml" ;
+MainFromObjects "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client_dbg.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client_dbg.exe" : "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\link_options.txt" ;
+Depends "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client_dbg.exe" : "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\resources.res" ;
+Depends all : "h:\\Home\\Bureau\\4A\\S7\\Instrumentation_virtuelle\\ClientServer\\Client\\cvibuild.client\\Debug\\client_dbg.exe" ;

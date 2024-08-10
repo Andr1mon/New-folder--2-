@@ -1,0 +1,30 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c:52:1"
+
+[OkCallback]
+Class="Function"
+Prototype="int OkCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c:118:1"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c:225:1"
+
+[ClientTCPCB]
+Class="Function"
+Prototype="int ClientTCPCB(unsigned int handle, int event, int error, void *callbackData);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c:244:1"
+
+[ClearScreenCB]
+Class="Function"
+Prototype="int ClearScreenCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c:297:1"
+
+[MainPanelCB]
+Class="Function"
+Prototype="int MainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c:309:1"
+

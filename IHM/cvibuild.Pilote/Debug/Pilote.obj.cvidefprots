@@ -1,0 +1,15 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\Pilote.c:13:1"
+
+[OkCallback]
+Class="Function"
+Prototype="int OkCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\Pilote.c:30:1"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\IHM\Pilote.c:151:1"
+

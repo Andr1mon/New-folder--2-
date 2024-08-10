@@ -1,0 +1,1 @@
+-force-include-file "client.c";"h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.c" -force-include-file "client.h";"h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Client\client.h" 

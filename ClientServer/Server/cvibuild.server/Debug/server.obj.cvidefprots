@@ -1,0 +1,25 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.c:63:1"
+
+[TransmitCB]
+Class="Function"
+Prototype="void TransmitCB(unsigned int panelHandle);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.c:118:1"
+
+[ServerTCPCB]
+Class="Function"
+Prototype="int ServerTCPCB(unsigned int handle, int event, int error, void *callbackData);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.c:143:1"
+
+[ClearScreenCB]
+Class="Function"
+Prototype="int ClearScreenCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.c:300:1"
+
+[MainPanelCB]
+Class="Function"
+Prototype="int MainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="h:\Home\Bureau\4A\S7\Instrumentation_virtuelle\ClientServer\Server\server.c:312:1"
+
